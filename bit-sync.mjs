@@ -751,10 +751,4 @@ var BSync = new function()
   this.util = {md5: md5, adler32: adler32, rollingChecksum: rollingChecksum, readInt32: readInt32}; //mostly exposing these for the purposes of unit tests, but hey, if they are useful to someone, have at it!
 };
 
-
-if(((typeof require) != "undefined") && 
-   ((typeof module) != "undefined") && 
-   ((typeof module.exports) != "undefined"))
-    module.exports = BSync;
-
-
+export default BSync;

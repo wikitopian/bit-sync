@@ -1,8 +1,9 @@
 {
-  "name": "bit-sync",
-  "version": "0.0.0",
+  "name": "@matthewparrott/bit-sync",
+  "version": "0.1.0",
   "description": "Synchronize arbitrary data using the rsync algorithm",
-  "main": "bit-sync.js",
+  "main": "bit-sync.mjs",
+  "type": "module",
   "scripts": {
     "test": "qunit -c BSync:bit-sync.js -t tests/tests.js"
   },
